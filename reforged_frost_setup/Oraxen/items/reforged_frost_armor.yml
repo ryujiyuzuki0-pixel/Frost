@@ -1,0 +1,41 @@
+# Reforged Frost - Oraxen setup (Minecraft 1.21.2+)
+# Copy into plugins/Oraxen/items/ and run /oraxen reload all
+# Also set  CustomArmor: type: COMPONENT  in plugins/Oraxen/settings.yml (see settings_snippet.yml)
+#
+# The item IDs end in _head_piece/_chest_piece/... on purpose: Oraxen's
+# auto_assign_component only recognises _helmet/_chestplate/_leggings/_boots, so it
+# will not overwrite the MythicArmors asset ids set below.
+# Base material is LEATHER_*. For the heavier version change LEATHER_ to NETHERITE_.
+
+reforged_frost_head_piece:
+  itemname: "<bold><#C8C4E0>Reforged Frost <white>Helmet"
+  material: LEATHER_HELMET
+  components:
+    item_model: mythicarmor:reforged_frost_armor_head_piece
+    equippable:
+      slot: HEAD
+
+reforged_frost_chest_piece:
+  itemname: "<bold><#C8C4E0>Reforged Frost <white>Chestplate"
+  material: LEATHER_CHESTPLATE
+  components:
+    equippable:
+      slot: CHEST
+      model: mythicarmor:reforged_frost_armor_chest_piece
+
+reforged_frost_legs_piece:
+  itemname: "<bold><#C8C4E0>Reforged Frost <white>Leggings"
+  material: LEATHER_LEGGINGS
+  components:
+    equippable:
+      slot: LEGS
+      model: mythicarmor:reforged_frost_armor_legs_piece
+
+reforged_frost_feet_piece:
+  itemname: "<bold><#C8C4E0>Reforged Frost <white>Boots"
+  material: LEATHER_BOOTS
+  components:
+    equippable:
+      slot: FEET
+      model: mythicarmor:reforged_frost_armor_feet_piece
+

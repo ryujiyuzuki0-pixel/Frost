@@ -1,0 +1,54 @@
+# Reforged Frost - Nexo setup (Leather base)
+# Copy into plugins/Nexo/items/ and run /nexo reload
+reforged_frost_leather_head_piece:
+  itemname: <bold><#C8C4E0>Reforged Frost <white>Helmet
+  lore:
+  - <gray>Forged in endless winter,
+  - <gray>pale, spiked, and crowned with horns,
+  - <gray>worthy of a frost sovereign.
+  - <dark_gray>Leather base
+  material: LEATHER_HELMET
+  Components:
+    equippable:
+      slot: HEAD
+    item_model: mythicarmor:reforged_frost_armor_head_piece
+
+reforged_frost_leather_chest_piece:
+  itemname: <bold><#C8C4E0>Reforged Frost <white>Chestplate
+  lore:
+  - <gray>Forged in endless winter,
+  - <gray>pale, spiked, and crowned with horns,
+  - <gray>worthy of a frost sovereign.
+  - <dark_gray>Leather base
+  material: LEATHER_CHESTPLATE
+  Components:
+    equippable:
+      slot: CHEST
+      asset_id: mythicarmor:reforged_frost_armor_chest_piece
+
+reforged_frost_leather_legs_piece:
+  itemname: <bold><#C8C4E0>Reforged Frost <white>Leggings
+  lore:
+  - <gray>Forged in endless winter,
+  - <gray>pale, spiked, and crowned with horns,
+  - <gray>worthy of a frost sovereign.
+  - <dark_gray>Leather base
+  material: LEATHER_LEGGINGS
+  Components:
+    equippable:
+      slot: LEGS
+      asset_id: mythicarmor:reforged_frost_armor_legs_piece
+
+reforged_frost_leather_feet_piece:
+  itemname: <bold><#C8C4E0>Reforged Frost <white>Boots
+  lore:
+  - <gray>Forged in endless winter,
+  - <gray>pale, spiked, and crowned with horns,
+  - <gray>worthy of a frost sovereign.
+  - <dark_gray>Leather base
+  material: LEATHER_BOOTS
+  Components:
+    equippable:
+      slot: FEET
+      asset_id: mythicarmor:reforged_frost_armor_feet_piece
+

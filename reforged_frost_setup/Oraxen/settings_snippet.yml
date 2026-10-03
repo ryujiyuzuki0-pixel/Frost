@@ -1,0 +1,7 @@
+# plugins/Oraxen/settings.yml  (merge this into your existing CustomArmor section)
+CustomArmor:
+  type: COMPONENT
+  auto_select_type: true
+  disable_leather_repair: true
+  component_settings:
+    auto_assign_component: true
